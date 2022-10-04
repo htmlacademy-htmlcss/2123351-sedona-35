@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: `Диана Обушная`(https://up.htmlacademy.ru/htmlcss/35/user/2123351).
-* Наставник: `Евгений Бервяченок`. (https://htmlacademy.ru/profile/id151813)
+* Студент: [Диана Обушная](https://up.htmlacademy.ru/htmlcss/35/user/2123351).
+* Наставник: [Евгений Бервяченок](https://htmlacademy.ru/profile/id151813)
 
 ---
 
