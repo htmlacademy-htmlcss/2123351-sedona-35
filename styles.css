@@ -1,6 +1,5 @@
 * {
-
-    list-style: none;
+   list-style: none;
   }
 
 
@@ -136,9 +135,9 @@
   }
 
 
-  .main-line{
+  .main-line {
     width: 93px;
-    height: 0px;
+    height: 0 px;
     border: 2px solid #756257;
     margin-left: 8px;
   }
@@ -487,7 +486,7 @@
 
   .button-newsletter-button{
     background: #82B3D3;
-    padding: 0px 40px;
+    padding: 0 px 40px;
     box-sizing: border-box;
     font-size: 20px;
     line-height: 36px;
@@ -497,7 +496,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     border: 0 solid #82B3D3;
-    border-radius: 0px 4px 4px 0px;
+    border-radius: 0 px 4px 4px 0 px;
   }
 
   .field {
