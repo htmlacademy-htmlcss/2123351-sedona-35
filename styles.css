@@ -81,11 +81,11 @@
     justify-content: space-between;
   }
 
-  .navigation-left{
+  .navigation-left {
     display: flex;
   }
 
-  .navigation-right{
+  .navigation-right {
     display: flex;
     margin-left: 100px;
     align-items:center;
@@ -156,7 +156,6 @@
   .main-index {
     color: black;
     background-color: white;
-
   }
 
   .page-container {
@@ -349,7 +348,6 @@
     align-items: center;
     margin-top: 30px;
     margin-left: 170px;
-
   }
 
 
@@ -399,54 +397,53 @@
 
   .search {
     margin: 0 auto;
+ }
 
-    }
+  .search-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 auto;
+    padding-top: 96px;
+  }
 
-    .search-title {
-      font-weight: 700;
-      font-size: 30px;
-      line-height: 36px;
-      text-align: center;
-      text-transform: uppercase;
-      color: #000000;
-      margin: 0 auto;
-      padding-top: 96px;
-    }
+  .search-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+    width: 645px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
 
-    .search-description {
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 26px;
-      text-align: center;
-      color: #333333;
-      width: 645px;
-      margin: 0 auto;
-      margin-top: 25px;
-    }
-
-    .search-button {
-      display: block;
-      background-color: #756157;
-      padding: 8px ;
-      color: white;
-      transition: all .35s;
-      border-radius: 4px;
-      font-size: 20px;
-      width: 376px;
-      text-align: center;
-      text-decoration: none;
-      font-weight: 700;
-      line-height: 36px;
-      margin: 0 auto;
-      margin-top: 54px;
-      margin-bottom: 96px;
-    }
+  .search-button {
+    display: block;
+    background-color: #756157;
+    padding: 8px ;
+    color: white;
+    transition: all .35s;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 376px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0 auto;
+    margin-top: 54px;
+    margin-bottom: 96px;
+  }
 
 
   .footer-social {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .footer-social-list{
