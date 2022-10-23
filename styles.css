@@ -84,6 +84,7 @@ body {
 
 .navigation-left{
   display: flex;
+  margin-top: 12px;
 }
 
 .navigation-right{
