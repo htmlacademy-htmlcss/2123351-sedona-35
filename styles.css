@@ -1,8 +1,3 @@
-* {
-
-  list-style: none;
-}
-
 
 @font-face {
   font-family: "PT Sans";
@@ -57,11 +52,10 @@
   clip: rect(0 0 0 0);
 }
 
-
-
 html {
   height: 100%;
 }
+
 
 body {
   margin: 0;
@@ -78,16 +72,16 @@ body {
 
 .navigation {
   display: flex;
-  width: 1060px;
-  justify-content: space-between;
+  width: 1175px;
+  height: 65px;
+  justify-content: space-around;
 }
 
-.navigation-left{
+.navigation-left {
   display: flex;
-  margin-top: 12px;
 }
 
-.navigation-right{
+.navigation-right {
   display: flex;
   margin-left: 100px;
   align-items:center;
@@ -98,7 +92,8 @@ body {
   max-width: 470px;
   margin: 0;
   padding: 0;
-
+  align-items: baseline;
+  list-style: none;
 }
 
 .navigation-item {
@@ -109,7 +104,6 @@ body {
 }
 
 
-
 .navigation-link {
   text-decoration: none;
   color: #000000;
@@ -117,7 +111,22 @@ body {
   display: block;
 }
 
+.navigation-link:hover {
+  color: #756157;
+}
 
+.count-badge {
+  position: absolute;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  border-radius: 50%;
+  background-color: #7DB54F;
+  color: #FFFFFF;
+  padding: 3px 5px;
+  letter-spacing: -0.1em;
+  margin: -8px;
+}
 
 .button {
   width: 160px;
@@ -136,12 +145,17 @@ body {
   box-sizing: border-box;
 }
 
+.button:hover {
+  background-color: #615048;
+}
 
-.main-line{
-  width: 93px;
+
+.main-line {
+  width: 68px;
   height: 0px;
-  border: 2px solid #756257;
-  margin-left: 8px;
+  border: 1px solid #756257;
+  margin-left: 22px;
+  margin-top: -8px;
 }
 
 
@@ -158,16 +172,19 @@ body {
 .main-index {
   color: black;
   background-color: white;
-
 }
 
 .page-container {
   width: 100%;
   margin: 0 auto;
-  padding: 55px 0 109px 0;
-  background-image: url("./images/hero.png");
+  padding: 54px 0 25px 0;
+  background-image: url("./images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.sedona-background {
+  margin-top: 11px;
 }
 
 .description {
@@ -351,7 +368,6 @@ body {
   align-items: center;
   margin-top: 30px;
   margin-left: 170px;
-
 }
 
 
@@ -367,6 +383,7 @@ body {
   padding: 0;
   text-align: center;
   color: black;
+  list-style: none;
 }
 
 .recommendations-title {
@@ -401,51 +418,55 @@ body {
 
 .search {
   margin: 0 auto;
+}
 
-  }
+.search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 auto;
+  padding-top: 96px;
+}
 
-  .search-title {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-    margin: 0 auto;
-    padding-top: 96px;
-  }
+.search-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  width: 645px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
 
-  .search-description {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
-    color: #333333;
-    width: 645px;
-    margin: 0 auto;
-    margin-top: 25px;
-  }
+.search-button {
+  display: block;
+  background-color: #756157;
+  padding: 8px ;
+  color: white;
+  transition: all .35s;
+  border-radius: 4px;
+  font-size: 20px;
+  width: 376px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0 auto;
+  margin-top: 54px;
+  margin-bottom: 96px;
+}
 
-  .search-button {
-    display: block;
-    background-color: #756157;
-    padding: 8px ;
-    color: white;
-    transition: all .35s;
-    border-radius: 4px;
-    font-size: 20px;
-    width: 376px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 700;
-    line-height: 36px;
-    margin: 0 auto;
-    margin-top: 54px;
-    margin-bottom: 96px;
-  }
+.search-button:hover {
+  background-color: #615048;
+}
 
 .footer-social {
    display: flex;
+   max-width: 1175px;
    justify-content: space-between;
    align-items: center;
 }
@@ -454,6 +475,7 @@ body {
   display: flex;
   width: 140px;
   justify-content: space-around;
+  list-style: none;
 }
 
 .telephone {
@@ -463,6 +485,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  text-decoration: none;
 }
 
 
@@ -500,6 +523,12 @@ body {
   border-radius: 0px 4px 4px 0px;
 }
 
+.button-newsletter-button:hover {
+  background-color: #68A2CA;
+  cursor: pointer;
+
+}
+
 .field {
   width: 452px;
   height: 52px;
@@ -521,4 +550,15 @@ body {
   display: flex;
   justify-content: center;
   font-size: 0;
+}
+
+
+.telephone:hover {
+  color: #756157;
+}
+
+
+.main-container {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.42);
 }
