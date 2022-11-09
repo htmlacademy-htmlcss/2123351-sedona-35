@@ -814,7 +814,6 @@
     padding-left: 36px;
   }
 
-
   .control-mark {
     position: absolute;
     top: 8px;
@@ -828,7 +827,6 @@
   .control:hover .control-mark {
     border-color: #FFFFFF;
   }
-
 
   .control-input[type="checkbox"]:checked + .control-mark::after {
     position: absolute;
